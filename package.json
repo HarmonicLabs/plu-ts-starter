@@ -1,0 +1,11 @@
+{
+  "name": "plu-ts-starter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {},
+  "dependencies": {
+    "@harmoniclabs/plu-ts": "^0.1.0",
+    "typescript": "^4.8.4"
+  }
+}
