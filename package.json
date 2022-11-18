@@ -5,7 +5,11 @@
   "main": "index.ts",
   "scripts": {},
   "dependencies": {
+<<<<<<< HEAD
     "@harmoniclabs/plu-ts": "^0.1.4",
+=======
+    "@harmoniclabs/plu-ts": "^0.1.1",
+>>>>>>> c58f68efeaea329262770e09e10b68c0740a45d8
     "typescript": "^4.8.4"
   }
 }
