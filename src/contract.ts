@@ -1,4 +1,4 @@
-import { bool, pBool, pByteString, pfn, PScriptContext } from "@harmoniclabs/plu-ts";
+import { bool, pBool, pfn, PScriptContext } from "@harmoniclabs/plu-ts";
 import MyDatum from "./MyDatum";
 import MyRedeemer from "./MyRedeemer";
 
