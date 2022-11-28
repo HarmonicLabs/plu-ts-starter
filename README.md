@@ -26,6 +26,18 @@ once you built the project (see above), run:
 node dist/index.js
 ```
 
+# Run in demeter.run
+
+demeter.run is a browser enviroment that allows you to set up environments of cardano applications in second
+
+you can use demeter.run to set up your environment for a `plu-ts` project too!
+
+you are just one click away
+
+[![Code in Cardano Workspace](https://demeter.run/code/badge.svg)](https://demeter.run/code?repository=https://github.com/HarmonicLabs/plu-ts-starter&template=typescript)
+
+
+
 ## Consultancy and audits
 
 For smart contract consultancy and audits you can send a mail to [harmoniclabs@protonmail.com](mailto:harmoniclabs@protonmail.com)
