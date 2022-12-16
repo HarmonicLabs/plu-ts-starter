@@ -7,7 +7,7 @@
     "build": "tsc -p ./tsconfig.json && tsc-alias -p ./tsconfig.json"
   },
   "dependencies": {
-    "@harmoniclabs/plu-ts": "^0.1.8"
+    "@harmoniclabs/plu-ts": "^0.1.10"
   },
   "devDependencies": {
     "tsc-alias": "^1.7.1",
