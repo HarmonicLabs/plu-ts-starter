@@ -1,20 +1,19 @@
-import { compile, makeValidator } from "@harmoniclabs/plu-ts";
-import { PlutusScriptVersion, scriptToJsonFormat } from "@harmoniclabs/plu-ts/dist/onchain/pluts/Script/compile.js";
+import { compile, makeValidator, Script, ScriptType } from "@harmoniclabs/plu-ts";
 import contract from "./contract";
 
 const untypedValidator = makeValidator( contract );
 
 const compiled = compile( untypedValidator );
 
-const jsonFormat = scriptToJsonFormat(
-    compiled,
-    PlutusScriptVersion.V2
+const script = new Script(
+    ScriptType.PlutusV2,
+    compiled
 );
 
 console.log("validator compield succesfully!");
 console.log(
     JSON.stringify(
-        jsonFormat,
+        script.toJson(),
         undefined,
         2
     )
