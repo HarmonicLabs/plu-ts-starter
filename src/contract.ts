@@ -2,7 +2,6 @@ import { Address, bool, compile, makeValidator, PaymentCredentials, pBool, pfn, 
 import MyDatum from "./MyDatum";
 import MyRedeemer from "./MyRedeemer";
 
-
 export const contract = pfn([
     MyDatum.type,
     MyRedeemer.type,
